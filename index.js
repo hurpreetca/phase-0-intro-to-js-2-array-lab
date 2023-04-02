@@ -35,12 +35,12 @@ function beforeEach() {
   }
   function removeLastCat(name)
   {
-    const newCats= [...cats.slice(0, cats.length-1)];
+    const newCats= cats.slice(0, cats.length-1);
     return newCats;
   }
   function removeFirstCat(name)
   {
-    const newCats= [...cats.slice(1)];
+    const newCats= cats.slice(1);
     return newCats;
   }
 
